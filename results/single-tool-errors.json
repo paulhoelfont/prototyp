@@ -1,0 +1,585 @@
+[
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(5) > select",
+    "foundByTools": [
+      "Pa11y"
+    ],
+    "toolCounts": {
+      "Pa11y": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.4.3",
+    "cssSelector": "tr[height=\"25px\"]:nth-child(2) > td[bgcolor=\"#A9B8BF\"][width=\"150px\"] > font[color=\"#41545D\"][size=\"2\"] > b",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 2
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_left_top.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_top.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_right_top.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_left.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"top_logo_next_end.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"top_weather.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"top_logo_next_start.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"mark.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "td[colspan=\"5\"][background=\"./img/marker2_w.gif\"][width=\"780px\"] > img[src$=\"marker2_w.gif\"][width=\"78px\"][height=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "td[width=\"155px\"][background=\"./img/marker2_w.gif\"] > img[src$=\"marker2_w.gif\"][width=\"78px\"][height=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[width=\"1\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[name=\"nav_home\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "tr[height=\"1px\"]:nth-child(3) > td[width=\"154px\"][background=\"./img/marker2_w.gif\"] > img[src$=\"marker2_w.gif\"][width=\"78px\"][height=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 4
+    },
+    "totalOccurrences": 4
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"nav_news.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[name=\"nav_facts\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"nav_survey.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "td[width=\"20px\"]:nth-child(2) > img[src$=\"blank_5x5.gif\"][height=\"5px\"][width=\"20px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 2
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": ".newsheadline:nth-child(1) > img[src$=\"headline_middle.gif\"][width=\"23\"][height=\"24\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 3
+    },
+    "totalOccurrences": 3
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"marker2_t.gif\"][height=\"30px\"][width=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "td[width=\"151px\"][background=\"./img/marker2_w.gif\"] > img[src$=\"marker2_w.gif\"][width=\"78px\"][height=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"teaser_right1.jpg\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "td[background=\"./img/marker2_w.gif\"][width=\"150px\"] > img[src$=\"marker2_w.gif\"][width=\"78px\"][height=\"1px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"teaser_right2.jpg\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_right.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_bottom_left.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_bottom.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "img[src$=\"border_bottom_right.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": ".story:nth-child(1) > span > a[href$=\"news.html\"][onfocus=\"blur();\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 3
+    },
+    "totalOccurrences": 3
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#logos",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "h1",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": ".subline",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#mnav",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#startcontent",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "tr[height=\"10px\"]:nth-child(1)",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 2
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "td[background=\"./img/border_left.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "table[height=\"144px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "td[bgcolor=\"#E4E4E4\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "td[width=\"20px\"]:nth-child(2)",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 2
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": ".headline",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#main > p:nth-child(2)",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": ".newsbar:nth-child(2)",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 2
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": ".subheadline",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "p:nth-child(7)",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "td[width=\"151px\"][valign=\"TOP\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "table[height=\"17px\"][bgcolor=\"#EDEDED\"][cellpadding=\"0px\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "td[background=\"./img/border_right.gif\"]",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "#meta-footer",
+    "foundByTools": [
+      "Axe-core"
+    ],
+    "toolCounts": {
+      "Axe-core": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "tr > td > div > img",
+    "foundByTools": [
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": "div.newsbar > div.story > span > a",
+    "foundByTools": [
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Lighthouse": 3
+    },
+    "totalOccurrences": 3
+  },
+  {
+    "issueCategory": "WCAG 2.5.5",
+    "cssSelector": "div.subnav > ul > li.inaccessible > a.report",
+    "foundByTools": [
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 1
+  },
+  {
+    "issueCategory": "WCAG 2.5.5",
+    "cssSelector": "div.subnav > ul > li.accessible > a.report",
+    "foundByTools": [
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 1
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "issueCategory": "WCAG 3.1.1",
+    "cssSelector": "html",
+    "foundByTools": [
+      "Pa11y",
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 3
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#page > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > img",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 26,
+      "Lighthouse": 25
+    },
+    "totalOccurrences": 51
+  },
+  {
+    "issueCategory": "WCAG 4.1.2",
+    "cssSelector": "#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(5) > select",
+    "foundByTools": [
+      "Pa11y",
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 3
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#home > a",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#news > a",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#tickets > a",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#survey > a",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 1.1.1",
+    "cssSelector": "#content > div:nth-child(2) > div:nth-child(1) > img",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 6,
+      "Lighthouse": 3
+    },
+    "totalOccurrences": 9
+  },
+  {
+    "issueCategory": "WCAG 1.4.3",
+    "cssSelector": "#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(2) > tbody > tr > td:nth-child(5) > table > tbody > tr:nth-child(2) > td > font > b",
+    "foundByTools": [
+      "Pa11y",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Pa11y": 2,
+      "Lighthouse": 2
+    },
+    "totalOccurrences": 4
+  },
+  {
+    "issueCategory": "WCAG 1.3.1",
+    "cssSelector": "html",
+    "foundByTools": [
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": "#home > a[onfocus=\"blur();\"]",
+    "foundByTools": [
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": "#news > a[onfocus=\"blur();\"]",
+    "foundByTools": [
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": "#tickets > a[onfocus=\"blur();\"]",
+    "foundByTools": [
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  },
+  {
+    "issueCategory": "WCAG 2.4.4",
+    "cssSelector": "#survey > a[onfocus=\"blur();\"]",
+    "foundByTools": [
+      "Axe-core",
+      "Lighthouse"
+    ],
+    "toolCounts": {
+      "Axe-core": 1,
+      "Lighthouse": 1
+    },
+    "totalOccurrences": 2
+  }
+]

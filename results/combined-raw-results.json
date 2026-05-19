@@ -1,0 +1,110 @@
+[
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "landmark-one-main",
+    "cssSelector": "html",
+    "errorMessage": "Fix all of the following:\n  Document does not have a main landmark"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#logos",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#meta-header > h1",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": ".subline",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#mnav",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#startcontent",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": ".skip:nth-child(2)",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#header > a",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "img[src$=\"weather.png\"]",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#qklabel",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#qkmenu",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#info",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#main",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#footer",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Axe-core",
+    "wcagCriterion": "region",
+    "cssSelector": "#meta-footer",
+    "errorMessage": "Fix any of the following:\n  Some page content is not contained by landmarks"
+  },
+  {
+    "toolName": "Lighthouse",
+    "wcagCriterion": "landmark-one-main",
+    "cssSelector": "html",
+    "errorMessage": "Document does not have a main landmark.: One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main)."
+  },
+  {
+    "toolName": "Lighthouse",
+    "wcagCriterion": "target-size",
+    "cssSelector": "div.subnav > ul > li.inaccessible > a.report",
+    "errorMessage": "Touch targets do not have sufficient size or spacing.: Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.11/target-size)."
+  },
+  {
+    "toolName": "Lighthouse",
+    "wcagCriterion": "target-size",
+    "cssSelector": "div.subnav > ul > li.accessible > a.report",
+    "errorMessage": "Touch targets do not have sufficient size or spacing.: Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.11/target-size)."
+  }
+]

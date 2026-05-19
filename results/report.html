@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.6; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 40px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 30px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; font-weight: bold; color: #2c3e50; }
+        tr:hover { background-color: #f5f5f5; }
+        .wcag { font-weight: bold; color: #e74c3c; }
+        .tools { color: #2980b9; font-weight: bold; }
+        code { background-color: #f8f9fa; padding: 4px 6px; border-radius: 4px; font-family: Consolas, monospace; word-break: break-all; border: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <h1>Accessibility Test Report</h1>
+    
+    <h2>Kritische Fehler (Von mehreren Tools bestätigt)</h2>
+    <p>Diese Fehler wurden von mindestens zwei unterschiedlichen Tools erkannt und sollten mit höchster Priorität behoben werden.</p>
+    <table>
+        <tr>
+            <th>WCAG Kriterium</th>
+            <th>Gefunden von Tools</th>
+            <th>Häufigkeit</th>
+            <th>CSS Selektor (Betroffenes Element)</th>
+        </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 3.1.1</td>
+                <td class="tools">Pa11y, Axe-core, Lighthouse</td>
+                <td>3</td>
+                <td><code>html</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>51</td>
+                <td><code>#page > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > img</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 4.1.2</td>
+                <td class="tools">Pa11y, Axe-core, Lighthouse</td>
+                <td>3</td>
+                <td><code>#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(5) > select</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>2</td>
+                <td><code>#home > a</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>2</td>
+                <td><code>#news > a</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>2</td>
+                <td><code>#tickets > a</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>2</td>
+                <td><code>#survey > a</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>9</td>
+                <td><code>#content > div:nth-child(2) > div:nth-child(1) > img</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.4.3</td>
+                <td class="tools">Pa11y, Lighthouse</td>
+                <td>4</td>
+                <td><code>#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(2) > tbody > tr > td:nth-child(5) > table > tbody > tr:nth-child(2) > td > font > b</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core, Lighthouse</td>
+                <td>2</td>
+                <td><code>html</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Axe-core, Lighthouse</td>
+                <td>2</td>
+                <td><code>#home > a[onfocus="blur();"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Axe-core, Lighthouse</td>
+                <td>2</td>
+                <td><code>#news > a[onfocus="blur();"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Axe-core, Lighthouse</td>
+                <td>2</td>
+                <td><code>#tickets > a[onfocus="blur();"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Axe-core, Lighthouse</td>
+                <td>2</td>
+                <td><code>#survey > a[onfocus="blur();"]</code></td>
+            </tr>
+        
+    </table>
+
+    <h2>Spezifische Fehler (Nur von einem Tool gefunden)</h2>
+    <p>Diese Fehler wurden exklusiv von einzelnen Tools erkannt. Dies können False-Positives sein, oder sehr spezifische Tests, die andere Tools nicht durchführen.</p>
+    <table>
+        <tr>
+            <th>WCAG Kriterium</th>
+            <th>Gefunden von Tool</th>
+            <th>Häufigkeit</th>
+            <th>CSS Selektor (Betroffenes Element)</th>
+        </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Pa11y</td>
+                <td>1</td>
+                <td><code>#page > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(5) > select</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.4.3</td>
+                <td class="tools">Axe-core</td>
+                <td>2</td>
+                <td><code>tr[height="25px"]:nth-child(2) > td[bgcolor="#A9B8BF"][width="150px"] > font[color="#41545D"][size="2"] > b</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_left_top.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_top.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_right_top.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_left.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="top_logo_next_end.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="top_weather.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="top_logo_next_start.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="mark.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[colspan="5"][background="./img/marker2_w.gif"][width="780px"] > img[src$="marker2_w.gif"][width="78px"][height="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[width="155px"][background="./img/marker2_w.gif"] > img[src$="marker2_w.gif"][width="78px"][height="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[width="1"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[name="nav_home"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>4</td>
+                <td><code>tr[height="1px"]:nth-child(3) > td[width="154px"][background="./img/marker2_w.gif"] > img[src$="marker2_w.gif"][width="78px"][height="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="nav_news.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[name="nav_facts"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="nav_survey.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>2</td>
+                <td><code>td[width="20px"]:nth-child(2) > img[src$="blank_5x5.gif"][height="5px"][width="20px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>3</td>
+                <td><code>.newsheadline:nth-child(1) > img[src$="headline_middle.gif"][width="23"][height="24"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="marker2_t.gif"][height="30px"][width="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[width="151px"][background="./img/marker2_w.gif"] > img[src$="marker2_w.gif"][width="78px"][height="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="teaser_right1.jpg"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[background="./img/marker2_w.gif"][width="150px"] > img[src$="marker2_w.gif"][width="78px"][height="1px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="teaser_right2.jpg"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_right.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_bottom_left.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_bottom.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>img[src$="border_bottom_right.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Axe-core</td>
+                <td>3</td>
+                <td><code>.story:nth-child(1) > span > a[href$="news.html"][onfocus="blur();"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>#logos</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>h1</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>.subline</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>#mnav</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>#startcontent</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>2</td>
+                <td><code>tr[height="10px"]:nth-child(1)</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[background="./img/border_left.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>table[height="144px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[bgcolor="#E4E4E4"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>2</td>
+                <td><code>td[width="20px"]:nth-child(2)</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>.headline</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>#main > p:nth-child(2)</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>2</td>
+                <td><code>.newsbar:nth-child(2)</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>.subheadline</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>p:nth-child(7)</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[width="151px"][valign="TOP"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>table[height="17px"][bgcolor="#EDEDED"][cellpadding="0px"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>td[background="./img/border_right.gif"]</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.3.1</td>
+                <td class="tools">Axe-core</td>
+                <td>1</td>
+                <td><code>#meta-footer</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 1.1.1</td>
+                <td class="tools">Lighthouse</td>
+                <td>1</td>
+                <td><code>tr > td > div > img</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.4.4</td>
+                <td class="tools">Lighthouse</td>
+                <td>3</td>
+                <td><code>div.newsbar > div.story > span > a</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.5.5</td>
+                <td class="tools">Lighthouse</td>
+                <td>1</td>
+                <td><code>div.subnav > ul > li.inaccessible > a.report</code></td>
+            </tr>
+        
+            <tr>
+                <td class="wcag">WCAG 2.5.5</td>
+                <td class="tools">Lighthouse</td>
+                <td>1</td>
+                <td><code>div.subnav > ul > li.accessible > a.report</code></td>
+            </tr>
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+ID;Tool;WCAG Kriterium;CSS Selektor (Element);Tool-Fehlermeldung;Manuelle Pruefung (TP/FP/FN);Begruendung
+1;Axe-core;WCAG 1.3.1;"html";"Fix all of the following:   Document does not have a main landmark";;
+2;Axe-core;WCAG 1.3.1;"#logos";"Fix any of the following:   Some page content is not contained by landmarks";;
+3;Axe-core;WCAG 1.3.1;"#meta-header > h1";"Fix any of the following:   Some page content is not contained by landmarks";;
+4;Axe-core;WCAG 1.3.1;".subline";"Fix any of the following:   Some page content is not contained by landmarks";;
+5;Axe-core;WCAG 1.3.1;"#mnav";"Fix any of the following:   Some page content is not contained by landmarks";;
+6;Axe-core;WCAG 1.3.1;"#startcontent";"Fix any of the following:   Some page content is not contained by landmarks";;
+7;Axe-core;WCAG 1.3.1;".skip:nth-child(2)";"Fix any of the following:   Some page content is not contained by landmarks";;
+8;Axe-core;WCAG 1.3.1;"#header > a";"Fix any of the following:   Some page content is not contained by landmarks";;
+9;Axe-core;WCAG 1.3.1;"img[src$=""weather.png""]";"Fix any of the following:   Some page content is not contained by landmarks";;
+10;Axe-core;WCAG 1.3.1;"#qklabel";"Fix any of the following:   Some page content is not contained by landmarks";;
+11;Axe-core;WCAG 1.3.1;"#qkmenu";"Fix any of the following:   Some page content is not contained by landmarks";;
+12;Axe-core;WCAG 1.3.1;"#info";"Fix any of the following:   Some page content is not contained by landmarks";;
+13;Axe-core;WCAG 1.3.1;"#main";"Fix any of the following:   Some page content is not contained by landmarks";;
+14;Axe-core;WCAG 1.3.1;"#footer";"Fix any of the following:   Some page content is not contained by landmarks";;
+15;Axe-core;WCAG 1.3.1;"#meta-footer";"Fix any of the following:   Some page content is not contained by landmarks";;
+16;Lighthouse;WCAG 1.3.1;"html";"Document does not have a main landmark.: One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main).";;
+17;Lighthouse;WCAG 2.5.5;"div.subnav > ul > li.inaccessible > a.report";"Touch targets do not have sufficient size or spacing.: Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.11/target-size).";;
+18;Lighthouse;WCAG 2.5.5;"div.subnav > ul > li.accessible > a.report";"Touch targets do not have sufficient size or spacing.: Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.11/target-size).";;
